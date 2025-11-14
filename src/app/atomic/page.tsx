@@ -1,4 +1,4 @@
-import ExpartCounter from "@/components/ExpartCounter";
+import MasterCounter from "@/components/AtomicCounter";
 import {
 	Card,
 	CardContent,
@@ -8,8 +8,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Expart | Counter State App",
-	description: "Expart Counter State App",
+	title: "Atomic | Counter State App",
+	description: "Atomic Counter State App",
 };
 
 const page = () => {
@@ -18,11 +18,11 @@ const page = () => {
 			<Card className="w-xs">
 				<CardHeader>
 					<CardTitle className="grid place-items-center text-2xl">
-						Expert Counter App
+						Atomic Counter App
 					</CardTitle>
 				</CardHeader>
 				<CardContent>
-					<ExpartCounter />
+					<MasterCounter />
 				</CardContent>
 			</Card>
 		</section>
